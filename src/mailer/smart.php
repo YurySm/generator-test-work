@@ -14,8 +14,8 @@ $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 // $mail->Username = 'smolkayury@yandex.ru';                 // Наш логин
 // $mail->Password = 'tank1990';      
-$mail->Username = 'yurysmolka@gmail.com';                 // Наш логин
-$mail->Password = 'tank;!1990';                 // Наш пароль от ящика
+$mail->Username = 'email.for.mailer@gmail.com';                 // Наш логин
+$mail->Password = 'Qty123;!Zxs';                  // Наш пароль от ящика
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465;                                    // TCP port to connect to
  
