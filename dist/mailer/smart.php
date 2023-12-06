@@ -11,9 +11,7 @@ $mail->CharSet = 'utf-8';
 
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
-$mail->SMTPAuth = true;                               // Enable SMTP authentication
-// $mail->Username = 'smolkayury@yandex.ru';                 // Наш логин
-// $mail->Password = 'tank1990';      
+$mail->SMTPAuth = true;                               // Enable SMTP authentication     
 $mail->Username = 'email.for.mailer@gmail.com';                 // Наш логин
 $mail->Password = 'Qty123;!Zxs';                 // Наш пароль от ящика
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
